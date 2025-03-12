@@ -8,12 +8,12 @@ const Footer = () => {
     <footer className="bg-[#0d0c1d] text-gray-300 py-10 px-5">
       <Divider className="px-7 py-7" color="#2d2d2d" size="sm" />
 
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div className=" mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
 
         {/* Left Section - About */}
-        <div className="md:col-span-2 text-center md:text-left pl-6">
+        <div className="md:col-span-2 text-center md:text-left pl-6 ">
           <h2 className="text-lg font-semibold text-white">TECHVISTRA</h2>
-          <p className="text-sm mt-3 py-5">
+          <p className="text-sm mt-3 py-5 pr-8">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem adipisci blanditiis
             repellat reiciendis error aspernatur velit incidunt molestias a ab laborum assumenda
             ratione labore reprehenderit distinctio magnam.
@@ -39,7 +39,7 @@ const Footer = () => {
           </div>
         </div>
            
-          <div className=" flex gap-11 md:col-span-2  md:gap-8 md-mx:justify-evenly ">
+          <div className=" flex gap-11 md:col-span-2  md:gap-8 justify-around md-mx:justify-evenly ">
         {/* Middle Section - Services */}
         <div className="text-center md:text-left ">
           <h3 className="text-lg font-semibold text-white">Our Services</h3>

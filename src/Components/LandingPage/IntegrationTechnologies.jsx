@@ -26,8 +26,8 @@ const IntegrationTechnologies = () => {
 
       {/* Integration & Technologies Section */}
       <div className="mt-20 ">
-        <h2 className="text-4xl font-bold">Integration and Technologies</h2>
-        <p className="text-gray-400 mt-2 max-w-lg mx-auto " >
+        <h2 className="text-4xl font-bold sm-mx:text-3xl  xs-mx:text-2xl">Integration and Technologies</h2>
+        <p className="text-gray-400 mt-2 max-w-lg mx-auto  sm-mx:max-w-md  xs-mx:max-w-sm  xs-mx:text-sm" >
           A sleek, modern tech-inspired gradient or a high-quality image of a tech team at work, 
           digital interfaces, or futuristic technology.
         </p>
@@ -35,10 +35,10 @@ const IntegrationTechnologies = () => {
         <Divider className="max-w-xs mx-auto my-7 " color='#2d2d2d'  size="sm"  />
 
         {/* <div className="flex flex-wrap justify-center gap-12 mt-6 max-w-lg mx-auto "> */}
-        <div className="grid grid-cols-1 md:grid-cols-4 justify-center gap-12 mt-6 max-w-2xl mx-auto ">
+        <div className="grid grid-cols-3 md:grid-cols-4 justify-center gap-12 mt-6 max-w-2xl mx-auto  md-mx:gap-10  xs-mx:gap-7">
           {technologies.map((tech, index) => (
             <div key={index} className="flex flex-col items-center">
-              <img src={tech.icon} alt={tech.name} className="h-12 w-auto" />
+              <img src={tech.icon} alt={tech.name} className="h-12 w-auto  xs-mx:h-9" />
               <p className="mt-2 text-sm">{tech.name}</p>
             </div>
           ))}
@@ -48,7 +48,7 @@ const IntegrationTechnologies = () => {
           Show all Integrations +
         </button>
 
-        <Divider className=" mx-7 my-7 " color='#2d2d2d'  size="sm"  />
+        {/* <Divider className=" mx-7 my-7 " color='#2d2d2d'  size="sm"  /> */}
       </div>
     </div>
   );

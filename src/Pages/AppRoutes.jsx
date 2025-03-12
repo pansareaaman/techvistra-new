@@ -7,6 +7,8 @@ import Footer from '../Components/Footer/Footer'
 import AboutPage from './AboutPage'
 import ContactPage from './ContactPage'
 
+import TestimonialPage from './TestimonialPage'
+
 const AppRoutes = () => {
   return (
     <div>
@@ -14,9 +16,11 @@ const AppRoutes = () => {
       <div className='relative'>
       <Header  />
       <Routes>
-        <Route path='/contact' element= { <ContactPage/>}  />
+        
         <Route path='/' element= { <HomePage/>}  />
         <Route path='/about-us' element= { <AboutPage/>}  />
+        <Route path='/testimonials' element= { <TestimonialPage/>}  />
+        <Route path='/contact' element= { <ContactPage/>}  />
 
 
 

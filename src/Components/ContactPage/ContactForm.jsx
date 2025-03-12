@@ -2,21 +2,21 @@ import React from "react";
 
 const ContactForm = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-cover bg-center text-white relative px-4 bg-[#120819] font-poppins">
+    <div className=" flex flex-col items-center justify-center bg-cover bg-center text-white relative px-4 bg-[#120819] font-poppins">
       {/* Overlay */}
       <div className="absolute inset-0 bg-[#120819] bg-opacity-50"></div>
       {/* Intro Section */}
-      <div className="relative z-10 w-full max-w-6xl mx-auto text-center py-6 px-20 mt-10">
-        <p className="text-gray-300 text-lg">
+      <div className="relative z-10 w-full max-w-6xl mx-auto text-center py-6 px-20 mt-10 sm-mx:px-10 sm-mx:py-4 xs-mx:px-4">
+        <p className="text-gray-300 text-lg sm-mx:text-md xs-mx:text-sm">
           TechVistra is a forward-thinking technology solutions company specializing in custom software development, web and mobile applications, and cybersecurity.
           We empower businesses with innovative, user-centric digital solutions tailored to their needs. At TechVistra, we combine excellence, integrity, and creativity to drive growth and transformation.
         </p>
       </div>
 
       {/* Main Content */}
-      <div className="relative z-10 w-full max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mt-10">
+      <div className="relative z-10 w-full max-w-6xl 2xl:max-w-[80%] 2xl:space-x-12 mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mt-10">
         {/* Left Side - Form */}
-        <div className="bg-white bg-opacity-20 backdrop-blur-xl p-8 rounded-lg shadow-lg w-full border border-white border-opacity-20">
+        <div className="bg-white bg-opacity-20 backdrop-blur-xl p-8 rounded-lg shadow-lg w-full border border-white border-opacity-20 md-mx:w-[85%] mx-auto xs-mx:w-[95%]">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p className="text-gray-300 mb-6">Get in Touch with Us</p>
           <form className="space-y-4">
@@ -30,7 +30,7 @@ const ContactForm = () => {
 
         {/* Right Side - Contact Info */}
         <div className="w-full mt-10">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-2 gap-10 text-center">
             <div className="flex flex-col items-center">
               <img src="assets/contactPhone.png" className="h-16 mb-2" />
               <p className="text-lg font-semibold">Phone Number</p>

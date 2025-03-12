@@ -23,23 +23,23 @@ const values = [
 const MissionValuesCards = () => {
   return (
     <div className="z-10 relative">
-        <div className=" text-white text-center font-semibold text-5xl mt-10 " >
+        <div className=" text-white text-center font-semibold text-5xl mt-10 bs-mx:text-4xl sm-mx:text-3xl " >
         {/* Everthing you need */}
         {/* <TrueFocus sentence="Everthing you need"manualMode={false} blurAmount={5} borderColor="#00D8FF" animationDuration={1}pauseBetweenAnimations={1}/> */}
 
-        <div className="flex justify-center gap-3 items-center">
+        <div className="flex justify-center gap-3 items-center sm-mx:gap-2 px-2 sm-mx:flex-wrap">
         Everything you need 
         <RotatingText texts={["to Grow", "to Innovate", "to Succeed",]} mainClassName="px-2 sm:px-2 md:px-3 bg-[#26244b]  text-white overflow-hidden py-0.5 sm:py-1 md:py-2 justify-center rounded-lg" staggerFrom={"last"} initial={{ y: "100%" }} animate={{ y: 0 }} exit={{ y: "-120%" }} staggerDuration={0.025} splitLevelClassName="overflow-hidden pb-0.5 sm:pb-1 md:pb-1" transition={{ type: "spring", damping: 30, stiffness: 400 }} rotationInterval={2000}/>
         </div>
       
         </div>
-    <div className="bg-[#0d0c1d] text-white py-10 px-5 grid grid-cols-1 md:grid-cols-2 gap-6 w-5/6 mx-auto ">
+    <div className="bg-[#0d0c1d] text-white py-10 px-5 grid grid-cols-1 md:grid-cols-2 gap-6 w-5/6 mx-auto xs-mx:px-2   ">
         
       {values.map((value, index) => (
         <div key={index} className="bg-[#231A29] p-6 rounded-lg shadow-2xl text-center border hover:shadow-[#8c8ccd] ">
-          <div className="text-3xl mb-4 flex justify-center items-center text-black w-10 h-10 mx-auto rounded-lg bg-white">{value.icon}</div>
+          <div className="text-3xl mb-4 flex justify-center items-center text-black w-10 h-10 mx-auto rounded-lg bg-white  xs-mx:w-8 xs-mx:h-8 xs-mx:text-2xl ">{value.icon}</div>
           <h3 className="text-lg font-bold">{value.title}</h3>
-          <p className="text-gray-400 px-12">{value.description}</p>
+          <p className="text-gray-400 px-12 md-mx:px-6  sm-mx:px-4  xs-mx:px-1">{value.description}</p>
         </div>
       ))}
     </div>

@@ -26,9 +26,11 @@ const ContactMain = () => {
     </div>
 
     {/* Large Background Text */}
-    <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-6xl md:text-8xl font-extrabold text-gray-700 opacity-30 ">
+    <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 text-6xl md:text-8xl font-extrabold text-gray-700 opacity-30 
+    lg-mx:text-[7rem]  bs-mx:text-[6rem] md-mx:text-[5rem] sm-mx:text-[4rem] xm-mx:font- xs-mx:text-[3rem]  xsm-mx:text-[2rem]">
       TECHVISTRA
     </div>
+
     
   </div>
   )

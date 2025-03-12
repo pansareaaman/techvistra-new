@@ -19,7 +19,7 @@ const NavBar = () => {
 
   return (
     <div className="fixed top-4 w-full flex justify-center items-center z-[1000]">
-  <nav className="backdrop-blur-lg bg-[#3b1d6b62] text-white py-3 px-6 flex justify-between items-center w-[90%] max-w-[1200px] rounded-3xl bs-mx:w-[75%] bs-mx:py-1 bs-mx:pr-9">
+  <nav className="backdrop-blur-lg bg-[#3b1d6b62] text-white py-3 px-6 flex justify-between items-center w-[90%] max-w-[1200px] rounded-3xl bs-mx:w-[75%] bs-mx:py-1 bs-mx:pr-9 xs-mx:w-[90%]">
 
       {/* Logo Section */}
       <div className="flex items-center gap-2">
@@ -38,7 +38,7 @@ const NavBar = () => {
         Discover the Platform
       </button>
 
-      <Burger opened={opened} onClick={open} className='bs:hidden' aria-label="Toggle navigation" />
+      <Burger classNames="!text-white" color="gray" opened={opened} onClick={open} className='bs:hidden' aria-label="Toggle navigation" />
       <Drawer
         opened={opened}
         onClose={close}

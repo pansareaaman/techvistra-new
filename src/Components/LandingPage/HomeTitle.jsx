@@ -67,7 +67,7 @@ const HomeTitle = ({
   );
 
   return (
-    <h1 ref={ref} className={`text-4xl md:text-6xl font-bold ${className} flex flex-wrap`}>
+    <h1 ref={ref} className={`text-4xl md:text-6xl font-bold ${className} flex flex-wrap lg-mx:text-5xl bs-mx:text-4xl md-mx:text-3xl sm-mx:text-2xl  xs-mx:text-lg xs-mx:`}>
       {springs.map((props, index) => (
         <animated.span
           key={index}
