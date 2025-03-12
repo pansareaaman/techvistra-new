@@ -55,7 +55,7 @@ const Home = () => {
             Get started for free
           </button>
           <AvatarGroup className="  "> 
-            <Avatar className="xs-mx:!hidden" src="/assets/Ellipse 1.png" />
+            <Avatar className="" src="/assets/Ellipse 1.png" />
             <Avatar src="/assets/Ellipse 2.png" />
             <Avatar src="/assets/Ellipse 3.png" />
           </AvatarGroup>
