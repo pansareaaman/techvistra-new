@@ -4,7 +4,7 @@ import BlurText from "../Animation/BlurText";
 
 const ServicesMain = () => {
   return (
-    <div className="relative h-screen w-full flex items-center justify-center bg-[#0d0c1d] py-20 text-white">
+    <div className="relative h-screen w-full flex items-center justify-center  py-20 text-white">
       {/* Background Image with Full Coverage */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"

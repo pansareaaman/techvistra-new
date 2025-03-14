@@ -31,7 +31,7 @@ const TestimonialsPage = () => {
       {/* Valued Clients Section */}
       <div className="text-center mb-10">
         <h2 className="text-lg uppercase tracking-widest text-gray-400">Our Valued Clients</h2>
-        <div className="flex justify-center gap-8 mt-4 bg-[#26244b] max-w-3xl mx-auto rounded-2xl">
+        <div className="justify-between items-center pl-8 xsm-mx:pl-1  mt-4 bg-[#26244b] max-w-3xl mx-auto rounded-2xl grid grid-cols-2 md:grid-cols-4  md-mx:max-w-[80%] ">
           {clients.map((client, index) => (
             <img className="p-4 " key={index} src={client.logo} alt={client.name} />
           ))}
@@ -41,13 +41,13 @@ const TestimonialsPage = () => {
       {/* Testimonials Section */}
       <div className="text-center py-6">
         <h3 className="text-gray-400 uppercase tracking-widest">Testimonials</h3>
-        <h2 className="text-4xl font-bold mt-2 max-w-xs mx-auto">Read What Others Have To Say</h2>
+        <h2 className="text-4xl font-bold my-2 max-w-xs mx-auto">Read What Others Have To Say</h2>
       </div>
 
       {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-2 mt-8"> */}
-      <div className="flex gap-3 items-center w-3/4 mx-auto mt-8">
+      <div className="gap-3 items-center w-3/4 mx-auto mt-8 grid grid-cols-1 md:grid-cols-3">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="bg-[#171D46] px-5 mt-8 rounded-2xl shadow-lg text-center w-[25%] pb-10 mx-auto">
+          <div key={index} className="bg-[#171D46] px-5 mt-8 rounded-2xl shadow-lg text-center w-4/5 md-mx:w-full md-mx:mb-10 pb-10 mx-auto">
             <img 
               src={testimonial.image}
               alt={testimonial.name}

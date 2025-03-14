@@ -10,10 +10,10 @@ const services = [
   { icon: <FaBullhorn />, title: "Digital Marketing", desc: "SEO, social media, and brand growth strategies." },
 ];
 
-const Section1  = () => {
+const WhatWeOffer  = () => {
   return (
     // bg-gradient-to-r from-[#0d0c1d] to-[#1a1a2e]
-    <section className="relative py-14  text-white">
+    <section className="relative py-14 text-white max-w-[90%] mx-auto">
       {/* Section Header */}
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold bg-gradient-to-r from-[#a377d2] to-[#c2a2e3] bg-clip-text text-transparent">
@@ -23,7 +23,7 @@ const Section1  = () => {
       </div>
 
       {/* Services Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-1 xs:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
         {services.map((service, index) => (
           <div key={index} className="flex items-center bg-[#1a1a2e] p-6 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300">
             <div className="text-purple-400 text-3xl mr-4">{service.icon}</div>
@@ -45,4 +45,4 @@ const Section1  = () => {
   );
 };
 
-export default Section1 ;
+export default WhatWeOffer ;
