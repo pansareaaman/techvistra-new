@@ -18,10 +18,10 @@ const ScaleBusinessSection = () => {
         <div className="mt-6">
           <a
             href="/contact"
-            className="border border-white text-gray-200 px-6 py-3 rounded-full text-lg xs-mx:text-base font-semibold hover:bg-white hover:text-black transition-all flex items-center gap-2 max-w-[50%] mx-auto bg-gradient-to-r from-[#A9A9D2] to-[#C4C4DE]
+            className="border border-white text-gray-500 px-6 py-3 rounded-full text-lg xs-mx:text-base font-semibold hover:bg-white hover:text-black transition-all flex items-center gap-2 max-w-[50%] mx-auto bg-gradient-to-r from-[#A9A9D2] to-[#C4C4DE]
             sm-mx:max-w-[70%]  xs-mx:max-w-[90%]"
           >
-            Send a message →
+            Send a message
           </a>
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React from "react";
 
-const ServicesSections = () => {
+const Clients = () => {
   return (
     <div className=" text-white py-16 px-6">
 
@@ -11,7 +11,7 @@ const ServicesSections = () => {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-8 max-w-[90%] mx-auto justify-around [&>*]:h-16">
           <img src="/Logo/urban.png" alt="Client 1" className="rounded-md" />
           <img src="/Logo/Aisa21.png" alt="Client 2" className="rounded-md" />
-          <img src="/Logo/Code.png" alt="Client 2" className="rounded-md" />
+          <img src="/Logo/code.png" alt="Client 2" className="rounded-md" />
           <img src="/Logo/Graph.png" alt="Client 2" className="rounded-md" />
           
         </div>
@@ -20,4 +20,4 @@ const ServicesSections = () => {
   );
 };
 
-export default ServicesSections;
+export default Clients;
