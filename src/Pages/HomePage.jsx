@@ -9,12 +9,12 @@ import AI from '../Components/LandingPage/AI'
 
 const HomePage = () => {
   return (
-    <div className="bg-[#0d0c1d]  ">
+    <div className="bg-[#0d0c1d] font-poppins ">
       <Home/>
       <ServicesCards/>
       <MissionValuesCards/>
       <AI/>
-      {/* <TestimonialsPage/> */}
+      <TestimonialsPage/>
       <IntegrationTechnologies/>
     </div>
   )

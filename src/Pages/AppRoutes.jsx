@@ -8,6 +8,7 @@ import AboutPage from './AboutPage'
 import ContactPage from './ContactPage'
 
 import TestimonialPage from './TestimonialPage'
+import ServicePage from './ServicePage'
 
 const AppRoutes = () => {
   return (
@@ -19,6 +20,7 @@ const AppRoutes = () => {
         
         <Route path='/' element= { <HomePage/>}  />
         <Route path='/about-us' element= { <AboutPage/>}  />
+        <Route path='/services' element= { <ServicePage/>}  />
         <Route path='/testimonials' element= { <TestimonialPage/>}  />
         <Route path='/contact' element= { <ContactPage/>}  />
 

@@ -6,7 +6,7 @@ import ContactSection from '../Components/AboutUs/ContactSection'
 
 const AboutPage = () => {
   return (
-    <div className="bg-[#0d0c1d]  ">
+    <div className="bg-[#0d0c1d] font-poppins ">
       <AboutUs/>
       <WhoWeAre/>
       <MissionVision/>
