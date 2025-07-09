@@ -1,9 +1,11 @@
 import { Avatar, AvatarGroup } from "@mantine/core";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import HomeTitle from "./HomeTitle";
 import BlurText from "../Animation/BlurText";
 
 const Home = () => {
+    const navigate = useNavigate();
   return (
     <div className="pt-40  bs-mx:pt-32 sm-mx:pt-28 xs-mx:pt-24 ">
     <div className="relative h-screen w-full ">
@@ -35,9 +37,12 @@ const Home = () => {
         </p>
 
         <div className="flex items-center justify-center gap-4 mt-6  xs-mx:gap-2 xs-mx:pt-4">
-          <button className="bg-purple-600 px-6 py-3 rounded-full text-md hover:bg-purple-700 md-mx:px-4 sm-mx:px-2  sm-mx:py-2  xs-mx:py-2  xs-mx:px-2 xs-mx:text-sm ">
-            Get started for free
-          </button>
+          <button
+              onClick={() => navigate("/contact")}
+              className="bg-purple-600 px-6 py-3 rounded-full text-md hover:bg-purple-700 md-mx:px-4 sm-mx:px-2 sm-mx:py-2 xs-mx:py-2 xs-mx:px-2 xs-mx:text-sm"
+            >
+              Get started for free
+            </button>
           <AvatarGroup className="  "> 
             <Avatar className="" src="/assets/Ellipse 1.png" />
             <Avatar src="/assets/Ellipse 2.png" />

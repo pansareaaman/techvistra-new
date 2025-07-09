@@ -23,7 +23,7 @@ const MarketingMain = () => {
         {/* Heading with Star */}
         <div className="flex items-center justify-center gap-3">
           <h2 className="text-5xl text-gray-400 font-serif xs-mx:text-4xl">Digital Marketing  </h2>
-          <img className=" h-10 p-0 m-0 " src="/assets/Star.png" alt="Star Icon" />
+          {/* <img className=" h-10 p-0 m-0 " src="/assets/Star.png" alt="Star Icon" /> */}
         </div>
 
         {/* Subtitle */}
