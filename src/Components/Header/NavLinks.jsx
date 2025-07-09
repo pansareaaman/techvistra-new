@@ -10,7 +10,8 @@ const NavLinks = () => {
     { name: "About Us", url: "/about-us" },
     { name: "Services", url: "/services" },
     { name: "Testimonials", url: "/testimonials" },
-    { name: "Contact", url: "/contact" }
+    { name: "Contact", url: "/contact" },
+    { name: "Marketing", url: "/marketing" }
   ];
 
   return (

@@ -19,11 +19,11 @@ const ContactForm = () => {
         <div className="bg-white bg-opacity-20 backdrop-blur-xl p-8 rounded-lg shadow-lg w-full border border-white border-opacity-20 md-mx:w-[85%] mx-auto xs-mx:w-[95%]">
           <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
           <p className="text-gray-300 mb-6">Get in Touch with Us</p>
-          <form className="space-y-4">
-            <input type="text" placeholder="Your Name" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
-            <input type="email" placeholder="example@yourmail.com" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
-            <input type="text" placeholder="Subject" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
-            <textarea placeholder="Message" className="w-full p-3 h-32 rounded bg-gray-700 border border-gray-600 text-white"></textarea>
+          <form className="space-y-4" action="https://getform.io/f/aqonzrpa" method="POST">
+            <input type="text" name="name" placeholder="Your Name" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
+            <input type="email" name="email" placeholder="example@yourmail.com" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
+            <input type="text" name="subject" placeholder="Subject" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
+            <textarea placeholder="Message" name="message"  className="w-full p-3 h-32 rounded bg-gray-700 border border-gray-600 text-white"></textarea>
             <button className="w-full bg-gradient-to-r from-[#A9A9D2] to-[#C4C4DE] text-white font-semibold p-3 rounded">SUBMIT</button>
           </form>
         </div>

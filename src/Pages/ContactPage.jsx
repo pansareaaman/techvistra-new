@@ -8,7 +8,7 @@ const ContactPage = () => {
       window.scrollTo(0, 0);
     }, []);
   return (
-    <div className="font-poppins">
+    <div className="bg-[#0d0c1d] font-poppins">
     <ContactMain/>
     <ContactForm/>
     <ContactUsSection/>

@@ -5,6 +5,9 @@ import { Button, createTheme, MantineProvider } from '@mantine/core';
 import AppRoutes from './Pages/AppRoutes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { animated } from '@react-spring/web';
+import { Provider } from 'react-redux';
+import store from './Store';
+import { Notifications } from '@mantine/notifications';
 
 
 const theme = createTheme({
@@ -29,12 +32,16 @@ const theme = createTheme({
 
 function App() {
   return (
-    <MantineProvider theme={theme}>
-      {/* <Notifications position="top-center" zIndex={1000} /> */}
+    <Provider store={store}>
+    <MantineProvider theme={theme} withGlobalStyles withNormalizeCSS>
+    <Notifications className='fixed' limit={2} position="center" zIndex={1200} />
+ 
+
       <AppRoutes />
       <FontAwesomeIcon />
     
     </MantineProvider>
+    </Provider>
       
   );
 }

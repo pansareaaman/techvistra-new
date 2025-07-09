@@ -4,6 +4,7 @@ import ServicesCards from '../Components/LandingPage/ServicesCards'
 import MissionValuesCards from '../Components/LandingPage/MissionValuesCards'
 import TestimonialsPage from '../Components/LandingPage/TestimonialsPage'
 import IntegrationTechnologies from '../Components/LandingPage/IntegrationTechnologies'
+import WhyChooseUs from '../Components/LandingPage/WhyChooseUs'
 import AI from '../Components/LandingPage/AI'
 
 
@@ -20,6 +21,7 @@ const HomePage = () => {
       <AI/>
       <TestimonialsPage/>
       <IntegrationTechnologies/>
+      <WhyChooseUs/>
     </div>
   )
 }

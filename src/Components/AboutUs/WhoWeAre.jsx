@@ -31,8 +31,8 @@ const WhoWeAre = () => {
                     Driving Innovation, Empowering Transformation
                 </h1>
                 <ul className="mt-6 space-y-3 text-gray-300 text-sm sm:text-base md:text-lg">
-                    <li>🚀 TechVistra is a leading technology solutions provider dedicated to helping businesses transform their ideas into impactful digital solutions.</li>
-                    <li>💻 We specialize in custom software development, web and mobile app creation, cybersecurity, and innovative UI/UX design.</li>
+                    <li>🚀 TechVistra Software Solutions LLP is a Pune‑based IT services & consulting firm specializing in custom software development, mobile app development, web solutions, cloud integration and digital marketing. </li>
+                    <li>💻 The company has grown rapidly to support businesses across industries such as logistics, healthcare, e‑learning, travel & hospitality, financial services, and more.</li>
                 </ul>
             </div>
         </div>

@@ -1,6 +1,9 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; // ✅ Import from React Router
 
 const ContactSection = () => {
+  const navigate = useNavigate(); // ✅ Initialize navigate function
+
   return (
     <div className="bg-gradient-to-b from-[#110016] to-[#120B20] text-white pt-10 flex flex-col items-center justify-center px-4 sm:px-8 md:px-16 lg:px-24">
       
@@ -20,7 +23,10 @@ const ContactSection = () => {
 
         {/* Call-to-action button */}
         <div className="mt-12 mb-3 p-1 rounded-full border border-purple-300 inline-block">
-          <button className="rounded-full px-4 sm:px-6 py-2 text-white text-base sm:text-lg font-semibold transition-all duration-300 bg-[#765d98] hover:bg-[#2a1544] hover:text-[#e8e6ea]">
+          <button
+            onClick={() => navigate("/contact")} // ✅ Redirect to Contact page
+            className="rounded-full px-4 sm:px-6 py-2 text-white text-base sm:text-lg font-semibold transition-all duration-300 bg-[#765d98] hover:bg-[#2a1544] hover:text-[#e8e6ea]"
+          >
             Discover What We Offer
           </button>
         </div>
@@ -28,6 +34,7 @@ const ContactSection = () => {
 
       {/* Contact Card */}
       <div className="flex flex-col md:flex-row items-center w-full max-w-5xl bg-white/10 backdrop-blur-md rounded-lg shadow-lg p-6 sm:p-8 md:p-12">
+        
         {/* Left Content */}
         <div className="w-full md:w-2/3 pr-0 md:pr-8">
           <h2 className="text-xl sm:text-2xl font-semibold">Let’s Build Something Incredible Together!</h2>

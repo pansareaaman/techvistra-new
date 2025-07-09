@@ -7,28 +7,12 @@ const Home = () => {
   return (
     <div className="pt-40  bs-mx:pt-32 sm-mx:pt-28 xs-mx:pt-24 ">
     <div className="relative h-screen w-full ">
-      {/* Gradient Background Layer */}
-      {/* bg-gradient-to-r from-[#1b1039] to-[#11081f] */}
-      <div className="absolute inset-0 bg-gradient-to-r from-[#0d0c1d] to-[#1a1a2e]"></div>
-
-      {/* Background Images Layer */}
+    <div className="absolute inset-0 bg-gradient-to-r from-[#0d0c1d] to-[#1a1a2e]"></div>
       <div className="absolute inset-0 flex">
-        {/* Left Background Image */}
-        <div
-          className="w-1/2 h-full bg-cover bg-center"
-          style={{ backgroundImage: `url('/Image/br.png')` }}
-        >
-          <div className="absolute inset-0 bg-black bg-opacity-5"></div>
-        </div>
-
-        {/* Right Background Image */}
-        <div
-          className="w-1/2 h-full bg-cover bg-center"
-          style={{ backgroundImage: `url('/Image/br.png')` }}
-        >
-          <div className="absolute inset-0 bg-black bg-opacity-5"></div>
-        </div>
+        <div className="w-1/2 h-full bg-cover bg-center" style={{ backgroundImage: `url('/Image/br.png')` }}></div>
+        <div className="w-1/2 h-full bg-cover bg-center" style={{ backgroundImage: `url('/Image/br.png')` }}></div>
       </div>
+      
 
       {/* Main Content   <HomeTitle text="Building"/> */}
       <div className="relative z-10 flex flex-col items-center justify-center h-[70%] text-white text-center">

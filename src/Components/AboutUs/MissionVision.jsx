@@ -16,12 +16,12 @@ const MissionVision = () => {
                     <li> To be the global leader in delivering exceptional technology solutions that redefine industry standards.</li>
                     
                     <li className="mt-2">
-                        <span className="font-semibold text-gray-100">Core Values:</span>
+                        <span className="font-semibold text-gray-100">Key Facts:</span>
                         <ul className="mt-1 ml-6 list-disc">
-                            <li>Excellence</li>
-                            <li>Integrity</li>
-                            <li>Innovation</li>
-                            <li>Customer Success</li>
+                            <li>LLP Identification Number (LLPIN): ACJ‑4932</li>
+                            <li>Status: Active, headquartered at 145, Nana Peth, Pune, MH 411002</li>
+                            <li>Key Leadership: Arif Rasulebhai Pansare & Taiba Imtiyaz Tamboli (Designated Partners)</li>
+                            <li>Registered Under: RoC–Pune Jurisdiction</li>
                         </ul>
                     </li>
                 </ul>

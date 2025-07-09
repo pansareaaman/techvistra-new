@@ -6,8 +6,7 @@ const ContactUsSection = () => {
       <div className="w-full max-w-3xl bg-gray-900 bg-opacity-30 rounded-lg p-8 shadow-lg text-center backdrop-blur-lg">
         <h2 className="text-lg font-semibold text-gray-300">Contact Us Now</h2>
         <p className="text-gray-400 mt-3">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        Looking for robust software solutions that drive success? Our expert team is ready to assist you with custom software development, cloud solutions, and business automation.
         </p>
         <button className="mt-6 px-6 py-3 bg-gradient-to-r from-[#A9A9D2] to-[#C4C4DE] text-gray-900 rounded-full font-semibold shadow-md hover:bg-gray-200 transition">
           Get started for free
